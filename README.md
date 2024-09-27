@@ -1,7 +1,7 @@
 # Natural Language Sentiment Analysis: Comparison of Custom vs. Sklearn TF-IDF Vectorization and Tokenization Techniques
 The objective of this project is to develop a custom approach to vectorization and tokenization of natural language data and compare its performance to the baseline **sklearn** **TfidfVectorizer** implementation in a sentiment analysis task using IMDb movie reviews. The primary focus is on creating a custom TF-IDF vectorization technique that provides more control over how the text data is processed and represented. This custom approach is then benchmarked against the standard sklearn TF-IDF implementation to evaluate its effectiveness in capturing key features for classification.
 
-## Features
+## Key Implementation Components
 ### Full Control Over N-Grams:
 - Unlike `sklearn`’s `TfidfVectorizer`, this custom implementation allows complete control over how n-grams are generated and the specific range of n-grams to use such as bigrams, trigrams, or higher-order n-grams, providing more contextual information from the text.
 
